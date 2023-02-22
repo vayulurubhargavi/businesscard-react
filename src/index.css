@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  
+
+  width:30vw;
+  background-color:lightgray;
+  margin: 30px auto;
+  
+}
+
+.header{
+  font-size: 22px;
+  background-color: bisque;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.image{
+  margin-top: -22px;
+  width: inherit;
+  
+  /* background-image: url(https://cdn.pixabay.com/photo/2017/12/11/15/34/lion-3012515__480.jpg); */
+}
+
+.image> img{
+  width: inherit;
+  height: 159px;
+}
+
+.name {
+  text-align: center;
+  margin-top: -22px;
+  overflow: hidden;
+
+}
+.name > h5,p{
+  margin-top: -25px;
+}
+
+
+.buttons{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+
+
+
+.about{
+  padding:6px;
+}
+
+.about>p ,.interest>p{
+  margin-top: -19px;
+}
+
+.interest{
+  margin-top:-22px;
+}
+
+
+.footer{
+
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+  justify-content: space-evenly;
+  height: 5vh;
+  padding-top: 16px;
+}
